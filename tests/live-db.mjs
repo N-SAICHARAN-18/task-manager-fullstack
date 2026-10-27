@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
+import ws from 'ws';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -43,6 +44,7 @@ async function runLiveDbVerification() {
 
   const supabase = createClient(url, key, {
     auth: { persistSession: false, autoRefreshToken: false },
+    realtime: { transport: ws },
   });
 
   // 1. Test SELECT on tasks

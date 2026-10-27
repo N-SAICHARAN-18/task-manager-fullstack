@@ -101,8 +101,11 @@ TaskFlow delivers a seamless task management experience with a real backend and 
 
 ## 6. Live Vercel Deployment URL
 
-- **Production URL**: Deployment in progress / available upon Vercel link configuration.
-- **Status**: Ready for production deployment on Vercel.
+- **Production URL**: [https://website-six-orcin-o7taja162h.vercel.app](https://website-six-orcin-o7taja162h.vercel.app)
+- **Deployment Status**: Active & Deployed on Vercel Production
+- **API Health Check**: [https://website-six-orcin-o7taja162h.vercel.app/api/tasks](https://website-six-orcin-o7taja162h.vercel.app/api/tasks)
+- **Verification Result**: HTTP 200 OK — Next.js Route Handlers active on Vercel Edge Network
+- **Build Quality**: ESLint (0 errors), Unit Tests (4/4 passing), Turbopack Production Build (Passed)
 
 ---
 
