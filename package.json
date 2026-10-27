@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/api-validation.test.mjs"
+    "test": "node --test tests/api-validation.test.mjs",
+    "test:db": "node tests/live-db.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
